@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "routes": [
+    {
+      "src": "/proxy-n8n",
+      "dest": "/api/proxy-n8n.js"
+    }
+  ]
+}
