@@ -22,6 +22,7 @@ export default async function handler(req, res) {
     const result = await response.json();
 
     // 返回结果给微信小程序（确保是数组格式）
+    console.log('N8N返回的内容：', result);
     return res.status(200).json(result);
 
   } catch (error) {
