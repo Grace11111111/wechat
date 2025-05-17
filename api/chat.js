@@ -7,7 +7,7 @@ export default async function handler(req, res) {
     const userInput = req.body;
 
     // 转发请求到 N8N Webhook（替换成你自己的 webhook 地址）
-    const response = await fetch('https://hook.eu2.make.com/f1yohywa789gmdzyonqicmy3l5n06lhu', {
+    const response = await fetch('https://hook.eu2.make.com/cotyjbww8t6cb1xeuz5odzjt7wovll6u', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
